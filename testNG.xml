@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suiteXmlFile" parallel="false">
+    <parameter name="browser"  value="chrome"/>
+    <test name="Login test">
+        <classes>
+           <class name="Tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="Registration test">
+        <classes>
+            <class name="Tests.RegistrationTests"/>
+        </classes>
+    </test>
+    <test name="Product search test">
+        <classes>
+            <class name="Tests.ProductSearchTests"/>
+        </classes>
+    </test>
+    <test name="Add to cart test">
+        <classes>
+            <class name="Tests.AddToCartTests"/>
+        </classes>
+    </test>
+    <test name="Checkout process test">
+        <classes>
+            <class name="Tests.CheckoutProcessTests"/>
+        </classes>
+    </test>
+</suite>
